@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A69108A5-EB9E-4CBF-A266-2BB27098BA65}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>prj_concessionaria_com_banco_de_dados</RootNamespace>
+    <AssemblyName>prj_concessionaria_com_banco_de_dados</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.10.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="conexao.cs" />
+    <Compile Include="Modelo\ModeloCambio.cs" />
+    <Compile Include="Modelo\ModeloCargo.cs" />
+    <Compile Include="Modelo\ModeloCategoria.cs" />
+    <Compile Include="Modelo\ModeloCombustivel.cs" />
+    <Compile Include="Modelo\ModeloCor.cs" />
+    <Compile Include="Modelo\ModeloFuncionario.cs" />
+    <Compile Include="View\tlListaCambio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlListaCambio.Designer.cs">
+      <DependentUpon>tlListaCambio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlListaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlListaCategoria.Designer.cs">
+      <DependentUpon>tlListaCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlListaCombustiveis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlListaCombustiveis.Designer.cs">
+      <DependentUpon>tlListaCombustiveis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlListaCores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlListaCores.Designer.cs">
+      <DependentUpon>tlListaCores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlListaMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlListaMarca.Designer.cs">
+      <DependentUpon>tlListaMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlListaCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlListaCargo.Designer.cs">
+      <DependentUpon>tlListaCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlListaModelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlListaModelo.Designer.cs">
+      <DependentUpon>tlListaModelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlCadFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlCadFuncionario.Designer.cs">
+      <DependentUpon>tlCadFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlCadCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlCadCargo.Designer.cs">
+      <DependentUpon>tlCadCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlListaFuncionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlListaFuncionarios.Designer.cs">
+      <DependentUpon>tlListaFuncionarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlLogin.Designer.cs">
+      <DependentUpon>tlLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlCadCambio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlCadCambio.Designer.cs">
+      <DependentUpon>tlCadCambio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlCadCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlCadCategoria.Designer.cs">
+      <DependentUpon>tlCadCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlCadCombustivel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlCadCombustivel.Designer.cs">
+      <DependentUpon>tlCadCombustivel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlCadCor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlCadCor.Designer.cs">
+      <DependentUpon>tlCadCor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Ajuda\AjudaHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Ajuda\AjudaHome.Designer.cs">
+      <DependentUpon>AjudaHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update\Atualizar.cs" />
+    <Compile Include="Insert\Cadastro.cs" />
+    <Compile Include="Delete\Excluir.cs" />
+    <Compile Include="View\tlHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlHome.Designer.cs">
+      <DependentUpon>tlHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Select\ListagemDAL.cs" />
+    <Compile Include="Select\ListagemDLL.cs" />
+    <Compile Include="View\tlListaVeiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlListaVeiculos.Designer.cs">
+      <DependentUpon>tlListaVeiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo\ModeloCarros.cs" />
+    <Compile Include="Modelo\ModeloMarca.cs" />
+    <Compile Include="Modelo\ModeloVeiculo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\tlCadMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlCadMarca.Designer.cs">
+      <DependentUpon>tlCadMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlCadModelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlCadModelo.Designer.cs">
+      <DependentUpon>tlCadModelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\tlCadVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\tlCadVeiculo.Designer.cs">
+      <DependentUpon>tlCadVeiculo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\tlListaCambio.resx">
+      <DependentUpon>tlListaCambio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlListaCategoria.resx">
+      <DependentUpon>tlListaCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlListacombustiveis.resx">
+      <DependentUpon>tlListaCombustiveis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlListaCores.resx">
+      <DependentUpon>tlListaCores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlListaMarca.resx">
+      <DependentUpon>tlListaMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlListaCargo.resx">
+      <DependentUpon>tlListaCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlListaModelo.resx">
+      <DependentUpon>tlListaModelo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlCadFuncionario.resx">
+      <DependentUpon>tlCadFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlCadCargo.resx">
+      <DependentUpon>tlCadCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlListaFuncionarios.resx">
+      <DependentUpon>tlListaFuncionarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlLogin.resx">
+      <DependentUpon>tlLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlCadCambio.resx">
+      <DependentUpon>tlCadCambio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlCadCategoria.resx">
+      <DependentUpon>tlCadCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlCadCombustivel.resx">
+      <DependentUpon>tlCadCombustivel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlCadCor.resx">
+      <DependentUpon>tlCadCor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Ajuda\AjudaHome.resx">
+      <DependentUpon>AjudaHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlHome.resx">
+      <DependentUpon>tlHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlListaVeiculos.resx">
+      <DependentUpon>tlListaVeiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\tlCadMarca.resx">
+      <DependentUpon>tlCadMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlCadModelo.resx">
+      <DependentUpon>tlCadModelo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\tlCadVeiculo.resx">
+      <DependentUpon>tlCadVeiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
