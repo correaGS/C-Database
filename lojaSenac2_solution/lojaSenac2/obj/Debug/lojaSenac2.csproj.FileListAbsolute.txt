@@ -1,0 +1,26 @@
+C:\Users\gabriel.scorrea4\source\repos\lojaSenac2_solution\lojaSenac2\bin\Debug\dbLojaSenac.mdf
+C:\Users\gabriel.scorrea4\source\repos\lojaSenac2_solution\lojaSenac2\bin\Debug\dbLojaSenac_log.ldf
+C:\Users\gabriel.scorrea4\source\repos\lojaSenac2_solution\lojaSenac2\bin\Debug\lojaSenac2.exe.config
+C:\Users\gabriel.scorrea4\source\repos\lojaSenac2_solution\lojaSenac2\bin\Debug\lojaSenac2.exe
+C:\Users\gabriel.scorrea4\source\repos\lojaSenac2_solution\lojaSenac2\bin\Debug\lojaSenac2.pdb
+C:\Users\gabriel.scorrea4\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.csprojResolveAssemblyReference.cache
+C:\Users\gabriel.scorrea4\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.Properties.Resources.resources
+C:\Users\gabriel.scorrea4\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.tlCrud.resources
+C:\Users\gabriel.scorrea4\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.csproj.GenerateResource.cache
+C:\Users\gabriel.scorrea4\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.scorrea4\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.exe
+C:\Users\gabriel.scorrea4\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.pdb
+C:\Users\gabriel.scorrea4\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.tlLogin.resources
+\\sbc-edufs01\SBC-TURMAS\Cursos livres\9900118652 _PROGRAMADOR DE SISTEMAS PSM_T31082019\Gabriel_Correa\source\repos\lojaSenac2_solution\lojaSenac2\bin\Debug\dbLojaSenac.mdf
+\\sbc-edufs01\SBC-TURMAS\Cursos livres\9900118652 _PROGRAMADOR DE SISTEMAS PSM_T31082019\Gabriel_Correa\source\repos\lojaSenac2_solution\lojaSenac2\bin\Debug\dbLojaSenac_log.ldf
+\\sbc-edufs01\SBC-TURMAS\Cursos livres\9900118652 _PROGRAMADOR DE SISTEMAS PSM_T31082019\Gabriel_Correa\source\repos\lojaSenac2_solution\lojaSenac2\bin\Debug\lojaSenac2.exe.config
+\\sbc-edufs01\SBC-TURMAS\Cursos livres\9900118652 _PROGRAMADOR DE SISTEMAS PSM_T31082019\Gabriel_Correa\source\repos\lojaSenac2_solution\lojaSenac2\bin\Debug\lojaSenac2.exe
+\\sbc-edufs01\SBC-TURMAS\Cursos livres\9900118652 _PROGRAMADOR DE SISTEMAS PSM_T31082019\Gabriel_Correa\source\repos\lojaSenac2_solution\lojaSenac2\bin\Debug\lojaSenac2.pdb
+\\sbc-edufs01\SBC-TURMAS\Cursos livres\9900118652 _PROGRAMADOR DE SISTEMAS PSM_T31082019\Gabriel_Correa\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.csprojResolveAssemblyReference.cache
+\\sbc-edufs01\SBC-TURMAS\Cursos livres\9900118652 _PROGRAMADOR DE SISTEMAS PSM_T31082019\Gabriel_Correa\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.Properties.Resources.resources
+\\sbc-edufs01\SBC-TURMAS\Cursos livres\9900118652 _PROGRAMADOR DE SISTEMAS PSM_T31082019\Gabriel_Correa\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.tlCrud.resources
+\\sbc-edufs01\SBC-TURMAS\Cursos livres\9900118652 _PROGRAMADOR DE SISTEMAS PSM_T31082019\Gabriel_Correa\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.tlLogin.resources
+\\sbc-edufs01\SBC-TURMAS\Cursos livres\9900118652 _PROGRAMADOR DE SISTEMAS PSM_T31082019\Gabriel_Correa\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.csproj.GenerateResource.cache
+\\sbc-edufs01\SBC-TURMAS\Cursos livres\9900118652 _PROGRAMADOR DE SISTEMAS PSM_T31082019\Gabriel_Correa\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.csproj.CoreCompileInputs.cache
+\\sbc-edufs01\SBC-TURMAS\Cursos livres\9900118652 _PROGRAMADOR DE SISTEMAS PSM_T31082019\Gabriel_Correa\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.exe
+\\sbc-edufs01\SBC-TURMAS\Cursos livres\9900118652 _PROGRAMADOR DE SISTEMAS PSM_T31082019\Gabriel_Correa\source\repos\lojaSenac2_solution\lojaSenac2\obj\Debug\lojaSenac2.pdb
